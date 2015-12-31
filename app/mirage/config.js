@@ -1,5 +1,5 @@
 export default function() {
-  this.get('/game', function() {
+  this.get('/tiles', function() {
     return {
       data: [{
         type: 'tiles',
@@ -9,31 +9,31 @@ export default function() {
         }
       },{
          type: 'tiles',
-        id: 1,
+        id: 2,
         attributes: {
           piece: 'floor'
         }
       },{
          type: 'tiles',
-        id: 1,
+        id: 3,
         attributes: {
           piece: 'subject'
         }
       },{
          type: 'tiles',
-        id: 1,
+        id: 4,
         attributes: {
           piece: 'player'
         }
       },{
          type: 'tiles',
-        id: 1,
+        id: 5,
         attributes: {
           piece: 'floor'
         }
       },{
         type: 'tiles',
-        id: 1,
+        id: 6,
         attributes: {
           piece: 'target'
         }
