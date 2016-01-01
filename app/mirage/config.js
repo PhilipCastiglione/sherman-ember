@@ -56,7 +56,6 @@ export default function() {
         }
       });
     }
-    tiles.sort(function(a, b) { return a.id - b.id; });
     return { data: tiles }
   });
 }
